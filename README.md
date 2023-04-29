@@ -51,3 +51,14 @@ For deleting the kubernetes cluster use the following command..
 eskctl delete cluster --name test-cluster  -- for deleting the amzone cluster
 ```
 
+# Fargate Cluster creation...
+
+```
+eksctl create cluster --name demo --region ap-south-1 --fargate
+```
+
+For deleting the fargate cluster --
+
+```
+eksctl delete cluster --name demo
+```
